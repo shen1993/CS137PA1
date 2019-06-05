@@ -1,0 +1,85 @@
+{\rtf1\ansi\ansicpg936\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0              precision    recall  f1-score   support\
+\
+      B-FAC      0.333     0.100     0.154        10\
+      I-FAC      0.200     0.083     0.118        12\
+      B-GPE      0.799     0.766     0.782       171\
+      I-GPE      0.800     0.571     0.667        35\
+      B-LOC      0.750     0.375     0.500        16\
+      I-LOC      0.714     0.833     0.769         6\
+      B-ORG      0.739     0.610     0.669       195\
+      I-ORG      0.776     0.776     0.776       196\
+      B-PER      0.866     0.821     0.843       330\
+      I-PER      0.912     0.947     0.929       132\
+\
+avg / total      0.806     0.753     0.776      1103\
+\
+Top positive:\
+7.977432 O        EOS\
+5.419507 O        BOS\
+3.572484 B-PER    twitter_cluster:111001110\
+3.558732 B-ORG    word.lower():rutgers\
+3.513011 B-PER    twitter_cluster:111001100011\
+3.454285 B-PER    -1:word.lower():president\
+3.452719 B-ORG    word.lower():parliament\
+3.385022 B-PER    +1:word.lower():v\
+3.299838 B-GPE    twitter_cluster:11100110101\
+3.273717 O        -1:word.lower():a\
+3.272892 O        bias\
+3.193856 B-PER    word.lower():mounties\
+3.140209 B-GPE    +1:word.lower():(\
+3.065413 O        word[-3:]:day\
+3.015962 B-ORG    word.lower():northwest\
+2.964446 B-PER    person_found\
+2.901187 O        +1:word.lower():aides\
+2.900912 B-ORG    word.lower():senate\
+2.855070 O        -1:word.lower():bush\
+2.795124 B-GPE    word.isupper()\
+2.722777 B-GPE    twitter_cluster:111001101111\
+2.720848 B-ORG    -1:word.lower():group\
+2.715858 B-ORG    twitter_cluster:1111011010\
+2.708330 I-PER    person_found\
+2.643958 B-PER    twitter_cluster:1110011001101\
+2.610009 B-ORG    word.lower():exciteathome\
+2.606247 O        +1:word.lower():act\
+2.545631 B-ORG    -1:word.lower():sec\
+2.534401 B-ORG    twitter_cluster:11100011010\
+2.509033 B-GPE    word.lower():eu\
+\
+Top negative:\
+-1.454031 O        +1:word.lower():hosni\
+-1.456368 O        twitter_cluster:111111101111\
+-1.492006 O        -1:word.lower():village\
+-1.492745 B-PER    company_found\
+-1.496703 O        twitter_cluster:111001101111\
+-1.532262 B-FAC    -1:word.istitle()\
+-1.540596 B-PER    -1:word.lower():at\
+-1.546050 O        -1:word.lower():international\
+-1.551417 B-ORG    +1:word.isupper()\
+-1.570368 B-PER    word.isupper()\
+-1.581126 O        word.lower():nation\
+-1.592005 O        +1:word.lower():hadn't\
+-1.626434 I-GPE    +1:postag[:2]:NN\
+-1.631052 O        +1:word.lower():is\
+-1.671830 B-PER    word[-2:]:ia\
+-1.677399 O        +1:word.lower():four\
+-1.691508 O        +1:word.lower():(\
+-1.695068 I-PER    bias\
+-1.698604 O        twitter_cluster:OOV\
+-1.716469 O        +1:word.lower():also\
+-1.839436 O        +1:word.lower():spoke\
+-1.925617 O        +1:word.lower():says\
+-1.937057 O        +1:word.lower():'ve\
+-1.977545 B-PER    -1:word.lower():the\
+-1.978546 O        word.istitle()\
+-1.994176 O        twitter_cluster:111001111\
+-2.094703 B-GPE    -1:postag:NNP\
+-2.326206 O        word.lower():republicans\
+-2.484573 O        -1:word.lower():federal\
+-2.557805 O        word.isupper()}
